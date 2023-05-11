@@ -1,0 +1,32 @@
+body{
+      background-color: brown;
+}
+div{
+    font-size: medium;
+    text-align: center;
+    text-decoration: dotted;
+}
+div::after{
+    content: "-sampada";
+    color-scheme: black;
+    text-align: end;
+}
+/* Extra small devices like (phones,600px,down) */
+@media (max-width:600px) {
+    body{
+        background-color:yellow;
+        
+     }
+     div{
+        font-size: x-large;
+        text-align: center;
+        text-decoration:dashed;
+     }
+     div::after{
+        content: "-sam";
+        color: #24b6d6;
+        text-align: end;
+    }
+    
+}
+

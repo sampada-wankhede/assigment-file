@@ -1,0 +1,83 @@
+body{
+font-family: 'Alkatra', cursive;
+}
+
+.html.header {
+    font:caption;
+    color:rgba(55, 55, 205, 0.827)
+}
+
+ol {
+    background-color: rgb(219, 219, 131);
+    text-align: center;
+    color: black;
+}
+    
+
+ol>li{
+      text-decoration: underline;
+}
+
+p+nav{
+    color:aqua;
+    text-decoration: double;
+    background-color: black;
+}
+ 
+div>p{
+    border: 0ch;
+    text-align: center;
+    color: black;
+    background-color: blue;
+}
+
+h1~p{
+    font-style: italic;
+    color:greenyellow;
+}
+ 
+[target="_blank"] {
+    color:orchid;
+}
+
+ol>p{
+    padding:10px;
+    margin:10px;
+}
+/* HOVER */
+ p:hover{
+    background-color: #f87288d8;
+    color:#62b9db
+}
+/* FOCUS */
+input:focus{
+    background-color:black;
+    color: red;
+    font-size: 25px;
+
+}
+/* LINK */
+a:hover{
+    color:#5ece5e;
+
+}
+a:active{
+    color: brown;
+}
+a:visited{
+    color:black;
+
+}
+p::first-line{
+    color: #5ece5e;
+}
+header::first-line{
+    color: #55e3d5;
+}
+p::after{
+    content:"-sampada";
+    color:#aa4758;
+}
+p::selection{
+    color: #7247aa;
+}

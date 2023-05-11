@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css flex</title>
+    <style>
+        /* justify content */
+        .cont1{
+            display:flex;
+            justify-content:space-between;
+           
+
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid #000000;
+        }
+        .box1{
+            background-color:#ff0000;
+        }
+        .box2{
+            background-color:#ffff00;
+        }
+        .box3{
+            background-color:#0000ff;
+        }
+        .box4{
+            background-color:#00f2ff;
+        }
+        .box5{
+            background-color:#e29637;
+        }
+        .box6{
+            background-color:#00ff1e;
+        }
+        /*  */
+        .cont2{
+            display: flex;
+            flex-direction: column;
+          align-items: center;
+          gap:30px;
+            
+        }
+        .main{
+            height: 500px;
+            /* align-content: center; */
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="cont1">
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+    </div>
+    <br>
+    <div class="cont2">
+        <div class="box box4">box4</div>
+        <div class="box box5">box5</div>
+        <div class="box box6">box6</div>
+    </div></div>
+</body>
+</html>

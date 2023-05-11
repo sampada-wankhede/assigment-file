@@ -1,0 +1,105 @@
+
+/* margin , padding */
+*universal selector{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Alkatra', cursive;
+    font-family: 'Poppins', sans-serif;  
+}
+/* header */
+header h1{
+    background-color: #710678a2;
+    color:white;
+    text-align: center;
+    border:white;
+}
+
+.class1{ display: flex;
+    background-color:#710678a2 ;
+    justify-content: space-evenly;
+}
+/* crossword image adding at 1st p of main */
+.bgc1img{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGOz7bv_CQxk8Pq9LHcm0c09olpGXX2PY9WA&usqp=CAU);
+    background-repeat:repeat;
+    color: red;
+   
+}
+
+#id1{
+    text-align: center;
+    background-color: #710678a2;
+
+}
+
+.grad{
+    background-image: linear-gradient(#a02da7af,#808080);
+}
+.table{
+   
+    border-color: #faebd7;
+    display:flex ;
+    justify-content: center;
+}
+    
+.tblcell{
+    background-color: #faebd7;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.subject1{
+    border: 3px solid  #710678a2;
+    display: inline-block;
+    width: 300px;
+    min-height:300px;
+    
+}
+.subject2{
+    border: 3px solid  #710678a2;
+    display: inline-block;
+    min-height: 300px;
+    max-width: 400px;
+}
+.subject3{
+    border: 3px solid  #710678a2 ;
+    display: inline-block;
+    min-height:600px;
+    max-width: 310px;
+}
+.subject4{
+    border:3px solid  #710678a2 ;
+    display: inline-block;
+    min-height: 600px;
+    max-width: 400px;
+ 
+}
+.img{
+    display: flex;
+    flex-direction: column ;
+    width: 300px;
+}
+
+form input{
+    background-image: linear-gradient(to right,white,#5c0b8b); 
+}
+form textarea{
+    background-image: linear-gradient(to right,white,#5c0b8b); 
+}
+
+
+input:hover{
+    background-color: #bc84f0;
+    color: black;
+    font-weight:900;
+    
+}
+textarea:hover{
+  
+   background-color: #bc84f0;
+   color: black;
+    color: black;
+    font-weight:500;
+}

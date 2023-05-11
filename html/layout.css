@@ -1,0 +1,77 @@
+/* CSS LAYOUT */
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+/* stastic */
+.box1{
+    background-color: #d73030;
+}
+.box2{
+    background-color: #ffff00;
+}
+.box3{
+    background-color: #0000ff;
+} 
+
+ /* fixed  */
+.box4{
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    border-radius: 30%;
+}
+.box5{
+    background-color: #ffff00;
+}
+.box6{
+    background-color: #0000ff;
+}
+
+/* sticky */
+.box7{
+    background-color: #d73030;
+}
+.box8{
+    background-color: #ffff00;
+    position: sticky;
+    top: 0;
+
+}
+.box9{
+    background-color: #0000ff;
+   
+} 
+ 
+ /* relative */
+ 
+ .box10{
+    background-color: #d73030;
+}
+.box11{
+    background-color: #ffff00;
+}
+.box12{
+    background-color: #0000ff;
+    position: relative;
+    top:10px;
+    left: 50px;
+
+} 
+/* absolute*/
+ 
+.box13{
+    background-color: #d73030;
+}
+.box14{
+    background-color: #ffff00;
+}
+.box15{
+    background-color: #0000ff;
+    position: absolute;
+    top:250px;
+    left: 50px;
+
+} 

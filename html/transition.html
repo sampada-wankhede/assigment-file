@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+        div:hover{
+            width: 400px;
+            height: 200px;
+            background-color: black;
+            transition: width 2s, height 4s;
+            transition-timing-function: ease-out;
+            transition-delay: 3s;
+
+        } */
+
+        /* .div{
+            width: 150px;
+            height: 150px;
+            background-color: #ffff00;
+            animation-name: colorchange;
+            animation-duration: 4s;
+            animation-delay: 3s;
+
+
+        }
+
+        @keyframes colorchange{
+            from{
+                background-color: #9fe43d;
+            }
+            to{
+                background-color: #a82929;
+            }
+
+
+        } */
+
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: #1aa7d6;
+            animation-name:animation;
+             animation-duration: 8s;
+            animation-delay: 2s;
+            position: relative;
+            animation-iteration-count:2;
+            animation-direction: alternate-reverse;
+            transition-timing-function: linear;
+ 
+        }
+        @keyframes animation{
+            0%
+            {
+                background-color: blueviolet;
+                top: 0px;
+                left: 0px;
+            }
+            25%
+            {
+                background-color: skyblue;
+                top: 0px;
+                left: 300px;
+
+            }
+            50%{
+                background-color: #533bf0;
+                top: 300px;
+                left: 300px;
+
+            }
+            75%{
+                background-color: #ea3bf0;
+                top: 300px;
+                right: 0px;
+
+            }
+            100%{
+                background-color: #d2f03b;
+                top: 0px;
+                left: 0px;
+
+            }
+
+
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- <div title="life"></div>
+    <div class="div"></div> <br> -->
+    <div >
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+ /* 1) universal selector */
+ *{
+    margin :0;
+    padding :0;
+ }
+
+ /* 2) element selector */
+ h1{
+    color:blueviolet;
+    font:bold;
+
+ }
+
+ /* 3) class selector */
+ .class1 {
+    color: aquamarine;
+    text-align: center;
+ }
+
+ /* 4) id selector */
+ #id1 {
+    color:brown;
+    text-align: center;
+    text-decoration: dashed  rgb(78, 35, 177);
+
+ }
+
+ /* 5) selector list */
+ .class1,#id1,h1{
+    background-color:rgb(170, 213, 106) ;
+ }
+
+ /* 6) descendent selector */
+ main p{
+    font-size: larger;
+    color: rgb(49, 142, 179);
+
+ }
+
+ /* 7) child selector */
+  

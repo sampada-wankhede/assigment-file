@@ -1,0 +1,77 @@
+
+/* adding image in background */
+section>header{
+    background-image: url(https://images.pexels.com/photos/1767428/pexels-photo-1767428.jpeg?auto=compress&cs=tinysrgb&w=400);background-repeat: repeat-x;
+ 
+}
+section>div{
+    background-image: url(https://images.pexels.com/photos/931167/pexels-photo-931167.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+
+}
+
+body>header{
+    background-image: url(https://images.pexels.com/photos/1862695/pexels-photo-1862695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);background-attachment: fixed;
+}
+
+/* adding text color */
+.class1 {
+    color:#e32222d6;
+}
+/* adding image */
+header h1{
+    color:#adff2f;
+    background-color: #386edaed;
+    
+}
+.padding{
+    border:2px double #800080;
+    padding:100px 20px 50px 10px;
+    margin: 10px;
+}
+ /* text properties */
+#id1{
+    color: #bc3589;
+  text-align: left;
+  text-align-last: center;
+  text-decoration: double;
+  font-variant: small-caps;
+}
+
+/* text properties */
+section~div{
+    text-transform: uppercase;
+    text-indent: 15px;
+    word-spacing: 20px;
+   
+  line-height: 20px;
+}
+section+p{
+    border: 4px solid  #d69213;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 100px;
+    font-size: x-large;
+    text-indent: 30px;
+    text-transform: initial;
+
+}
+/*  display inline block */
+.inblock{
+    display: inline-block;
+    width: 200px;
+    
+    
+}
+#div{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+}
+
+
+
+
+
+    
