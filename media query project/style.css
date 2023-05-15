@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+         /* Larger-screen  */
+.large-screen{
+    font-size: 40px;
+    text-align: center;
+}
+         /* Normal-screen  */
+.normal-screen{
+    font-size: 40px;
+    text-align: center;
+}
+         /* Table-screen  */
+.tablet-screen{
+    font-size: 40px;
+    text-align: center;
+}
+         /* Mobile-screen  */
+.mobile-screen{
+    font-size: 40px;
+    text-align: center;
+}
+           
+
+@media screen and (max-width:1440px) and (min-width:1025px){
+    body{
+        background-color:#008000;
+    }
+    .large-screen{
+        display: block;
+    }
+    .normal-screen{
+        display: none;
+    }
+    .tablet-screen{
+        display: none;
+    }
+    .mobile-screen{
+        display: none;
+    }
+    }
+
+    @media screen and (max-width:1024px) and (min-width:769px)   {
+        body{
+            background-color:#b37604;
+        }
+        .large-screen{
+            display:none;
+        }
+        .normal-screen{
+            display: block;
+        }
+        .tablet-screen{
+            display: none;
+        }
+        .mobile-screen{
+            display: none;
+        }
+        }
+
+        @media screen and  (min-width:427px) and (max-width:768px)   {
+            body{
+                background-color:#2fd9e2;
+            }
+            .large-screen{
+                display:none;
+            }
+            .normal-screen{
+                display:none;
+            }
+            .tablet-screen{
+                display: block;
+            }
+            .mobile-screen{
+                display: none;
+            }
+            }
+
+            @media screen and (max-width: 426px) {
+
+                body{
+                    background-color:#d52243 ;
+                }
+                .large-screen{
+                    display:none;
+                }
+                .normal-screen{
+                    display: none;
+                }
+                .tablet-screen{
+                    display: none;
+                }
+                .mobile-screen{
+                    display: block;
+                }
+                }
+                @media screen and (min-width:1441px)   {
+                    body{background-color: #78f9e3de;
+    
+                        
+                    }
+                    .large-screen{
+                        display:none;
+                    }
+                    .normal-screen{
+                        display: none;
+                    }
+                    .tablet-screen{
+                        display: none;
+                    }
+                    .mobile-screen{
+                        display: none;
+                    }
+                    }
